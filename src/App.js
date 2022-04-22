@@ -1,24 +1,32 @@
-import logo from './logo.svg';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import Start from './pages/Start';
+import Agile from './pages/Agile';
+import Waterfall from './pages/waterfall';
+
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <main>
+          <Routes>
+            <Route path='/' element={<Start />}></Route>
+            <Route path='/agile' element={<Agile />}></Route>
+            <Route path='/waterfall' element={<Waterfall />}></Route>
+
+          </Routes>
+        </main>
+        <footer>
+          <nav>
+            <Link to={"/"}> Start // </Link>
+            <Link to={"/agile"}> Agile // </Link>
+            <Link to={"/waterfall"}> Waterfall </Link>
+
+          </nav>
+        </footer>
+      </div>
+    </Router>
   );
 }
 
