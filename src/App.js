@@ -14,7 +14,6 @@ function App() {
             <Route path='/' element={<Start />}></Route>
             <Route path='/agile' element={<Agile />}></Route>
             <Route path='/waterfall' element={<Waterfall />}></Route>
-
           </Routes>
         </main>
         <footer>
