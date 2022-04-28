@@ -60,16 +60,16 @@ function ProsAndCons() {
             <section>
                 <h2>Pros of the agile methodology<br /><br /></h2>
                 <p>
-                    Rapid delivery
+                    Rapid delivery<br />
                     The agile process allow you to deliver workable increments to your clients very quickly. They may not be perfect increments, but the understanding is that you will build upon these foundations on an ongoing basis. If you need to get something up and running fast, the agile approach is a good way to go about it.<br /><br />
 
-                    Adaptable
+                    Adaptable<br />
                     Because the increments are small, it’s very easy for projects to change direction and/or otherwise adapt to altering circumstances without undoing much of what has gone before.<br /><br />
 
-                    Collaborative
+                    Collaborative<br />
                     Agile working requires a lot of feeding back and forth between teams, clients, and customers. This makes for a collaborative environment in which silo walls are broken down and collective creativity often flourishes.<br /><br />
 
-                    Quick problem detection
+                    Quick problem detection<br />
                     You’re testing your increments on the go, so it quickly becomes apparent when problems crop up. Even better, the fragmented nature of what you’re doing means that you can usually pinpoint precisely where the problem lies and what’s causing it, so as to fix the issue with the next incremental cycle.<br /><br />
 
                     Transparent
@@ -82,16 +82,16 @@ function ProsAndCons() {
             <section>
                 <h2>Cons of the agile methodology<br /><br /></h2>
                 <p>
-                    Tricky paradigm shift
+                    Tricky paradigm shift<br />
                     Some businesses and industries lend themselves naturally to the agile approach. For others, however, shifting from a sequential and schedule-bound mode to the more freeform agile approach can be a difficult change to manage. Teething troubles are inevitable but can easily be fixed.<br /><br />
 
-                    Lack of specifics
+                    Lack of specifics<br />
                     The ad-hoc, reactive nature of the agile method makes it hard to pin down specifics like deadlines and costs. This can lead to sloppy budgeting, poor timing, and a general dearth of practical boundaries to work to.<br /><br />
 
-                    Ephemeral planning
+                    Ephemeral planning<br />
                     The agile ethos is in many ways more reactive than proactive. It’s about responding to issues and feedback in real-time. For many, this means that proper planning gets left behind in the rush to react, adapt, and improve. You need a strong core vision so that your overarching plan doesn’t get lost in the ongoing process.<br /><br />
 
-                    Lack of overall cohesion
+                    Lack of overall cohesion<br />
                     All of this comes together to represent a lack of overall cohesion when using the agile approach. It’s all too easy for the continuous process to run away with itself, and for the goals to get lost in the details.
 
                     While it is perfectly possible to be both agile and cohesive, it takes strong leadership and a consistent strategy to keep everyone and every increment working towards the same vision.<br /><br /></p>

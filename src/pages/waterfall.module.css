@@ -8,6 +8,58 @@
     width: 40rem;
 }
 
+.headLine {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.infoHeader {
+    border: solid 1rem #8E7DBE;
+    background-color: #8e7dbe7c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.infoGraphic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.infoOne {
+    border: solid 1rem #99C1B9;
+    background-color: #99c1b97b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.infoTwo {
+    border: solid 1rem #D88C9A;
+    background-color: #d88c9a82;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.buttonStyle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .button {
     width: 15rem;
     height: 2rem;
