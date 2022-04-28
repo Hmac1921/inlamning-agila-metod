@@ -1,3 +1,18 @@
 .outer {
-    background-color: #D88C9A;
+    background-color: #F1E3D3;
+}
+
+.graphic {
+    width: 100vw;
+    height: 30rem;
+    background-image: url('../img/scrumorg-scrum-framework-3000.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.button {
+    width: 15rem;
+    height: 2rem;
+    border-radius: 25px;
+    background-color: #99C1B9;
 }

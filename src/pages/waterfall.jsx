@@ -1,5 +1,6 @@
 import image from '../img/whatis-waterfall_model.png'
 import styles from '../pages/waterfall.module.css'
+import { Link } from 'react-router-dom'
 
 function Waterfall() {
     return (
@@ -10,7 +11,7 @@ function Waterfall() {
                 The Waterfall model is the earliest SDLC approach that was used for software development.<br /><br />
 
                 The waterfall Model illustrates the software development process in a linear sequential flow. This means that any phase in the development process begins only if the previous phase is complete. In this waterfall model, the phases do not overlap.<br /><br /></p>
-            <img className={styles.graphic} src={image} alt="waterfall image" />
+            <img className={styles.graphic} src={image} alt="waterfall" />
 
             <p>The sequential phases in Waterfall model are −<br /><br />
 
@@ -90,6 +91,7 @@ function Waterfall() {
 
                     Integration is done as a "big-bang. at the very end, which doesn't allow identifying any technological or business bottleneck or challenges early.</p>
             </section>
+            <Link to={'/'} > <input className={styles.button} type="button" value="Back to Start" /> </Link>
         </article>
     );
 }
