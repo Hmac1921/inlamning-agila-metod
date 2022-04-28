@@ -98,7 +98,7 @@ function Agile() {
 
             <section className={styles.backlog}>
                 <h2 >Backlog</h2>
-                <p>What is a product backlog?
+                <p>
                     A product backlog is a prioritized list of work for the development team that is derived from the roadmap and its requirements. The most important items are shown at the top of the product backlog so the team knows what to deliver first. The development team doesn't work through the backlog at the product owner's pace and the product owner isn't pushing work to the development team. Instead, the development team pulls work from the product backlog as there is capacity for it, either continually (kanban) or by iteration (scrum).  </p>
             </section>
             <section className={styles.sprintPlanning}>
@@ -116,9 +116,7 @@ function Agile() {
             </section>
             <section className={styles.sprints}>
                 <h2>Sprints</h2>
-                <p>A sprint is a short, time-boxed period when a scrum team works to complete a set amount of work. Sprints are at the very heart of scrum and agile methodologies, and getting sprints right will help your agile team ship better software with fewer headaches.
-
-                    “With scrum, a product is built in a series of iterations called sprints that break down big, complex projects into bite-sized pieces," said Megan Cook, Group Product Manager for Jira Software at Atlassian.  </p>
+                <p>A sprint is a short, time-boxed period when a scrum team works to complete a set amount of work </p>
             </section>
             <section className={styles.scrumArtifacts}>
                 <h2>Scrum artifacts</h2>
@@ -135,7 +133,7 @@ function Agile() {
             </section>
             <section className={styles.sprintReviews}>
                 <h2>Sprint reviews</h2>
-                <p>Sprint reviews are not retrospectives. A sprint review is about demonstrating the hard work of the entire team: designers, developers, and the product owner. At Atlassian we like to keep our sprint reviews casual. Team members gather around a desk for informal demos and describe the work they’ve done for that iteration. It’s a time to ask questions, try new features, and give feedback. Sharing in success is an important part of building an agile team.</p>
+                <p>Sprint reviews are not retrospectives. A sprint review is about demonstrating the hard work of the entire team: designers, developers, and the product owner. Team members gather around a desk for informal demos and describe the work they’ve done for that iteration. It’s a time to ask questions, try new features, and give feedback. Sharing in success is an important part of building an agile team.</p>
             </section>
             <section className={styles.sprintRetrospective}>
                 <h2>Sprint Retrospective</h2>
