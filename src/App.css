@@ -3,19 +3,3 @@
 * {
   font-family: 'Montserrat', sans-serif;
 }
-
-.App {
-  min-width: 100vw;
-  min-height: 100vh;
-  text-align: center;
-  background-color: #EEF5DB;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-}
-
-button {
-  width: 10rem;
-  height: 3rem;
-  border-radius: 15px;
-
-}

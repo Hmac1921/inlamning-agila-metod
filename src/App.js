@@ -16,7 +16,17 @@ function App() {
             <Route path='/waterfall' element={<Waterfall />}></Route>
           </Routes>
         </main>
-        <footer>
+
+      </div>
+    </Router>
+  );
+}
+
+export default App;
+
+/* 
+
+    <footer>
           <nav>
             <Link to={"/"}> Start // </Link>
             <Link to={"/agile"}> Agile // </Link>
@@ -24,9 +34,4 @@ function App() {
 
           </nav>
         </footer>
-      </div>
-    </Router>
-  );
-}
-
-export default App;
+*/
