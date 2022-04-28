@@ -43,54 +43,7 @@ function Waterfall() {
                 Ample resources with required expertise are available to support the product.<br /><br />
 
                 The project is short.</p>
-            <section>
-                <h2>Pros and Cons</h2>
-                <p>Waterfall Model - Pros<br /><br />
-                    The advantages of waterfall development are that it allows for departmentalization and control. A schedule can be set with deadlines for each stage of development and a product can proceed through the development process model phases one by one.<br /><br />
 
-                    Development moves from concept, through design, implementation, testing, installation, troubleshooting, and ends up at operation and maintenance. Each phase of development proceeds in strict order.<br /><br />
-
-                    Some of the major advantages of the Waterfall Model are as follows −<br /><br />
-
-                    Simple and easy to understand and use<br /><br />
-
-                    Easy to manage due to the rigidity of the model. Each phase has specific deliverables and a review process.<br /><br />
-
-                    Phases are processed and completed one at a time.<br /><br />
-
-                    Works well for smaller projects where requirements are very well understood.<br /><br />
-
-                    Clearly defined stages.<br /><br />
-
-                    Well understood milestones.<br /><br />
-
-                    Easy to arrange tasks.<br /><br />
-
-                    Process and results are well documented.<br /><br />
-
-                    Waterfall Model - Cons<br /><br />
-                    The disadvantage of waterfall development is that it does not allow much reflection or revision. Once an application is in the testing stage, it is very difficult to go back and change something that was not well-documented or thought upon in the concept stage.<br /><br />
-
-                    The major disadvantages of the Waterfall Model are as follows −<br /><br />
-
-                    No working software is produced until late during the life cycle.<br /><br />
-
-                    High amounts of risk and uncertainty.<br /><br />
-
-                    Not a good model for complex and object-oriented projects.<br /><br />
-
-                    Poor model for long and ongoing projects.<br /><br />
-
-                    Not suitable for the projects where requirements are at a moderate to high risk of changing. So, risk and uncertainty is high with this process model.<br /><br />
-
-                    It is difficult to measure progress within stages.<br /><br />
-
-                    Cannot accommodate changing requirements.<br /><br />
-
-                    Adjusting scope during the life cycle can end a project.<br /><br />
-
-                    Integration is done as a "big-bang. at the very end, which doesn't allow identifying any technological or business bottleneck or challenges early.</p>
-            </section>
             <Link to={'/'} > <input className={styles.button} type="button" value="Back to Start" /> </Link>
         </article>
     );
