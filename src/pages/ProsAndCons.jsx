@@ -3,10 +3,11 @@ import styles from '../pages/ProsAndCons.module.css'
 
 function ProsAndCons() {
     return (
-        <article>
-            <h2>Pros and Cons</h2>
-            <section>
-                <h3> Waterfall Model - Pros<br /><br /></h3>
+        <article className={styles.outer}>
+            <section className={styles.headLine}><h1> - Pros and Cons -</h1></section>
+
+            <section className={styles.waterfallPros}>
+                <h2> Waterfall Model - Pros<br /><br /></h2>
                 <p> The advantages of waterfall development are that it allows for departmentalization and control. A schedule can be set with deadlines for each stage of development and a product can proceed through the development process model phases one by one.<br /><br />
 
                     Development moves from concept, through design, implementation, testing, installation, troubleshooting, and ends up at operation and maintenance. Each phase of development proceeds in strict order.<br /><br />
@@ -30,8 +31,8 @@ function ProsAndCons() {
                     Process and results are well documented.<br /><br />
                 </p>
             </section>
-            <section>
-                <h3> Waterfall Model - Cons<br /><br /></h3>
+            <section className={styles.waterfallCons}>
+                <h2> Waterfall Model - Cons<br /><br /></h2>
                 <p>
                     The disadvantage of waterfall development is that it does not allow much reflection or revision. Once an application is in the testing stage, it is very difficult to go back and change something that was not well-documented or thought upon in the concept stage.<br /><br />
 
@@ -57,8 +58,8 @@ function ProsAndCons() {
                 </p>
 
             </section>
-            <section>
-                <h2>Pros of the agile methodology<br /><br /></h2>
+            <section className={styles.agilePros}>
+                <h2>Agile Method - Pros<br /><br /></h2>
                 <p>
                     Rapid delivery<br />
                     The agile process allow you to deliver workable increments to your clients very quickly. They may not be perfect increments, but the understanding is that you will build upon these foundations on an ongoing basis. If you need to get something up and running fast, the agile approach is a good way to go about it.<br /><br />
@@ -79,8 +80,8 @@ function ProsAndCons() {
                     When operating a waterfall approach, you can only evaluate performance once the project has completed development and is out in the marketplace. In order to improve, you must produce an entirely new and enhanced version.<br /><br />
                 </p>
             </section>
-            <section>
-                <h2>Cons of the agile methodology<br /><br /></h2>
+            <section className={styles.agileCons}>
+                <h2>Agile Method - Cons<br /><br /></h2>
                 <p>
                     Tricky paradigm shift<br />
                     Some businesses and industries lend themselves naturally to the agile approach. For others, however, shifting from a sequential and schedule-bound mode to the more freeform agile approach can be a difficult change to manage. Teething troubles are inevitable but can easily be fixed.<br /><br />
@@ -96,8 +97,10 @@ function ProsAndCons() {
 
                     While it is perfectly possible to be both agile and cohesive, it takes strong leadership and a consistent strategy to keep everyone and every increment working towards the same vision.<br /><br /></p>
             </section>
+            <section className={styles.buttonStyle}>
+                <Link to={'/'}> <input className={styles.button} type="button" value="Back to start" /> </Link>
+            </section>
 
-            <Link to={'/'}> <input className={styles.button} type="button" value="Back to start" /> </Link>
 
         </article>
 
