@@ -4,8 +4,10 @@ import { Link } from 'react-router-dom'
 function Agile() {
     return (
         <article className={styles.outer}>
-            <section>
+            <section className={styles.headLine}>
                 <h1> - Agile Method - </h1>
+            </section>
+            <section className={styles.infoGraphic}>
                 <div className={styles.graphic}></div>
             </section>
             <section className={styles.rolls}>
@@ -177,8 +179,10 @@ function Agile() {
 
                 </p>
             </section>
+            <section className={styles.buttonStyle}>
+                <Link to={'/'} > <input className={styles.button} type="button" value="Back to Start" /></Link>
+            </section>
 
-            <Link to={'/'} > <input className={styles.button} type="button" value="Back to Start" /></Link>
         </article>
     );
 }
