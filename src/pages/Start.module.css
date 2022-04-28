@@ -18,6 +18,36 @@
 
 }
 
+.waterfallInfo {
+    border: solid 1rem #D88C9A;
+    background-color: #d88c9a82;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.agileInfo {
+    border: solid 1rem #F2D0A9;
+    background-color: #f2d0a966;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.compared {
+    border: solid 1rem #8E7DBE;
+    background-color: #8e7dbe7c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+
 .button {
     width: 15rem;
     height: 2rem;

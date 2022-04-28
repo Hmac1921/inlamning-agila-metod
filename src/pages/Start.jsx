@@ -7,7 +7,7 @@ function Start() {
         <article className={styles.header}>
             <section className={styles.headerItems} >
 
-                <h1>Welcome to the agile and waterfall methodologies resource</h1>
+                <h1> - Agile and waterfall methodologies resource - </h1>
                 <img src={image} alt="agile vs waterfall diagram" />
             </section>
 
@@ -27,7 +27,7 @@ function Start() {
 
                 <Link to={"/agile"}><input className={styles.button} type="button" value="Learn more" /> </Link>
             </section>
-            <section>
+            <section className={styles.compared}>
                 <h2>  Differences Between Agile vs. Waterfall</h2>
                 <p> Both methodologies can help developers produce high-quality project management. Depending on the specific project requirement, knowing the difference between agile and waterfall can better equip a development team to choose the right process and methods in delivering a successful software project. Some of the distinct differences are:<br /><br />
 
